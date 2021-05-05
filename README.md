@@ -51,3 +51,8 @@ migration
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+環境出力
+```
+pip freeze > requirements-dev.txt
+```
